@@ -1,0 +1,11 @@
+spring.application.name=hotel-reservation
+
+# MySQL Bağlantısı (Veritabanı yoksa otomatik oluşturur)
+spring.datasource.url=jdbc:mysql://localhost:3306/hotel_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+spring.datasource.username=root
+spring.datasource.password=SIFRENIZ
+
+# JPA / Hibernate Ayarları
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
